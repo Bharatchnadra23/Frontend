@@ -1,0 +1,16 @@
+/* Style the image */
+.styled-image {
+    width: 400px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #007BFF; /* Blue border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    display: block;
+    margin: 20px auto; /* Center the image */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.styled-image:hover {
+    transform: scale(1.05);
+}

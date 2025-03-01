@@ -1,0 +1,41 @@
+/* Style for the navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+/* Style for the unordered list */
+@media(max-width:600px){
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the list items */
+nav ul li {
+    margin: 0 20px;
+}
+}
+/* Style for the links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    color: #ffcc00;
+    background-color: #555;
+    border-radius: 5px;
+}
